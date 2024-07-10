@@ -12,7 +12,7 @@ body {
 .header {
     background-color: #1f2937;
     color: white;
-    padding: 0% 15%;
+    padding: 0% 18%;
 }
 
 .top div,
@@ -27,13 +27,13 @@ body {
     align-items: center;
     display: flex;
     font-weight: bolder;
-    padding-top: 25px;
-    padding-bottom: 60px;
+    padding-top: 15px;
+    padding-bottom: 30px;
 }
 
 .links {
     display: flex;
-    gap: 50px;
+    gap: 30px;
     align-items: center;
     justify-content: flex-end;
     font-weight: 100;
@@ -44,13 +44,14 @@ a {
     list-style-type: none;
     color: #e5e7eb;
     font-size: 18px;
+    text-align: right;
 }
 
 .main {
     display: flex;
     flex-direction: row;
-    gap: 50px;
-    padding-bottom: 60px;
+    gap: 20px;
+    padding-bottom: 30px;
 }
 
 .left,
@@ -85,4 +86,59 @@ button {
     border-radius: 5px;
     border-style: none;
     padding: 5px 20px;
+}
+
+.title-subtext {
+    color: #e5e7eb;
+}
+
+/* Content Syling */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+}
+
+.content div {
+    display: flex;
+}
+
+div.some {
+    flex-grow: 1;
+    justify-content: center;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.container {
+    justify-content: center;
+    gap: 50px;
+
+#info-image {
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 10px;
+}
+
+#info-subtext {
+    flex-wrap: wrap;
+    color: #1f2937;
+    font-size: 16px;
+}
+
+.info-one,
+.info-two,
+.info-three,
+.info-four {
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 200px;
+    text-align: center;
+    gap: 5px;
 }
