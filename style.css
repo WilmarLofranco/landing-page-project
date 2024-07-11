@@ -142,3 +142,9 @@ div.some {
     text-align: center;
     gap: 5px;
 }
+
+/* style quote */
+
+.quote-section {
+    background-color: #3882f6;
+}
